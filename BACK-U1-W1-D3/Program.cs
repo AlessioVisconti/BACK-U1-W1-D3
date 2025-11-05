@@ -91,8 +91,12 @@ Console.WriteLine("scrivi la lunghezza dell'arrayX");
 int lunghezzaArrayX = int.Parse(Console.ReadLine());
 int[] numeri = { 1, 2, 3, 4, 5, 6 };
 int somma = 0;
+
 for(int i=0; i < lunghezzaArrayX; i++)
 {
    somma= somma + numeri[i];
+   
 }
+float media =(float) somma/numeri.Length;
 Console.WriteLine(somma);
+Console.WriteLine(media);
