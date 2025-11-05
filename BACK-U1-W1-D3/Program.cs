@@ -63,3 +63,16 @@ string scelta = Console.ReadLine();
 //2) Scrivere un algoritmo che prenda in input un valore di x nomi (decida il candidato la dimensione dell'array).
 //Dopo aver caricato l'array, specificare un nome da ricercare e stampare se il nome è presente o
 //meno nell'array caricato precedentemente.
+Console.WriteLine("scrivi la lunghezza dell'array");
+int lunghezzaArray = int.Parse(Console.ReadLine());
+string[] nomi = new string[lunghezzaArray];
+string[] nomiDisponibili = { "Optimus", "Simone", "Ivan", "Jonny" };
+for (int i = 0; i < lunghezzaArray; i++)
+{
+
+
+
+    nomi[i] = nomiDisponibili[i];
+    Console.WriteLine($"{nomi[i]}");
+
+}
