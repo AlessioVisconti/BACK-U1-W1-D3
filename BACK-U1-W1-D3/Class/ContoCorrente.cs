@@ -105,6 +105,7 @@ namespace BACK_U1_W1_D3.Class
                    Saldo= 1000;
                     break;
                 case "2":
+                    Console.WriteLine("Apertura del conto non riuscita");
                     break;
             }
           
